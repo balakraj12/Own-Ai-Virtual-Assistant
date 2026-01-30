@@ -3,7 +3,7 @@ import React, { createContext,useEffect, useState} from 'react'
 import { use } from 'react'
 export const userDataContext=createContext()
 function UserContext({children}) {
-    const serverUrl="http://localhost:8000"
+    const serverUrl="https://own-ai-virtual-assistant-1.onrender.com"
     const [userData,setUserData]=useState(null)
     const [frontendImage,setFrontendImage]=useState(null)
     const [backendImage,setBackendImage]=useState(null)
